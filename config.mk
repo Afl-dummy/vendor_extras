@@ -1,6 +1,10 @@
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 
+# Gallery
+PRODUCT_PACKAGES += \
+    Glimpse
+
 # MC and VB
 ifneq ($(WITH_GMS),true)
 PRODUCT_PACKAGES += \
