@@ -1,0 +1,9 @@
+android_app_import {
+    name: "ViaBrowser",
+    dex_preopt: {
+        enabled: false,
+    },
+    apk: "ViaBrowser.apk",
+    presigned: true,
+	preprocessed: true,
+}
